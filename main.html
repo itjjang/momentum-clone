@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>image</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
+    </head>
+    <body>
+        <div class="topBox">
+            <h2 id="weather"></h2>
+        </div>
+        <div class="mainBox">
+            <div class="subBox">
+                <h1 id="clockTitle"></h1>
+                <div class="elBox">
+                    <form id="fmUserGreet" class="hiding">
+                        <input type="text" id="userName" placeholder="What is your name?" />
+                    </form>
+                    <h2 id="greeting" class="hiding"></h2>
+                </div>
+                <div class="elBox">
+                    <form id="fmToDo">
+                        <input type="text" id="userTask" placeholder="What a to do" />
+                    </form>
+                    <ul id="pendingList"></ul>
+                </div>                
+            </div>
+        </div>
+        <script type="text/javascript" src="clock.js"></script>
+        <script type="text/javascript" src="userGreet.js"></script>
+        <script type="text/javascript" src="toDoList.js"></script>
+        <script type="text/javascript" src="bgImage.js"></script>
+        <script type="text/javascript" src="weather.js"></script>
+    </body>
+</html>
